@@ -1,0 +1,6 @@
+Date: 2025-09-04
+Width: 100.0 mm
+Aspect ratio: 16.0
+Diameter: 5.0 inches
+Volume: 0.72 liters
+------------------------------
