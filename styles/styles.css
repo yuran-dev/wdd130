@@ -14,11 +14,12 @@ main img {
 /* Estilizar o aside */
 aside {
     width: 250px;
-    margin: 20px;
+    margin: 20px auto;
     border: 2px solid #333;
     padding: 15px;
     background-color: #f0f0f0;
     color: #000;
+    text-align: center;
 }
 
 /* Estilizar imagem dentro do aside */
@@ -27,10 +28,34 @@ aside img {
     height: auto;
 }
 
-p {padding: 0;}
+/* Parágrafos */
+p {
+    padding: 0;
+}
 
+/* Footer */
 footer {
     margin-top: 30px;           
     border-top: 2px solid #333; 
     padding-top: 10px;           
+    text-align: center;
+}
+
+/* Nav e links */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    padding: 8px 12px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* H1 */
+h1 {
+    color: #333;
+    text-align: center;
 }
