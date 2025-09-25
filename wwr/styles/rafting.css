@@ -70,8 +70,13 @@ main {
 
 /* Headings */
 h1, h2 {
-    font-family: var(--body-font);
-    color: var(--primary-color);
+    position: absolute;
+    top: 20px;
+    padding: 100%;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #ffff;
 }
 
 /* Navegação e espaçamento básico para sections e artigos */
@@ -127,7 +132,7 @@ nav, p, section, article {
 
 .hero article img {
     float: right;
-    width: 150px;
+    width: 125px;
     margin-left: 16px;
     border-radius: 8px;
 }
