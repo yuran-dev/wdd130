@@ -49,6 +49,14 @@ nav, p, section, article {
     text-decoration: none;
 }
 
+/* Logo image */
+.logo {
+    display: block;
+    margin: 16px auto;
+    max-width: 200px;
+    height: auto;
+}
+
 /* Hero Section full screen */
 .hero {
     position: relative;
@@ -138,4 +146,12 @@ nav, p, section, article {
 .adventure p {
     font-size: 1.15rem;
     line-height: 1.8;
+}
+
+/* Logo image */
+.logo {
+    display: block;
+    margin: 16px auto;
+    max-width: 200px;
+    height: auto;
 }
