@@ -1,0 +1,72 @@
+/* Map */
+.map-container {
+  margin: 20px 5%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+/* Contact Form */
+.contact-form {
+  margin: 30px 5%;
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background-color: var(--accent1-color);
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-form button:hover {
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+}
+
+/* Employees */
+.employees {
+  margin: 40px 5%;
+  text-align: center;
+}
+
+.employee-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.employee-gallery figure {
+  flex: 1;
+  text-align: center;
+}
+
+.employee-gallery img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+}
