@@ -1,108 +1,111 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us – White Water Rafting</title>
-    <meta name="description" content="Get in touch with White Water Adventures for bookings, questions, or inquiries.">
-    <meta name="author" content="Yuran de Nelson Pascoal Nhangumbe">
-    <link rel="stylesheet" href="styles/rafting.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us – White Water Rafting</title>
+  <meta name="description" content="Get in touch with White Water Adventures for bookings, questions, or inquiries.">
+  <meta name="author" content="Yuran de Nelson Pascoal Nhangumbe">
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <img src="images/logo.png" alt="White Water Rafting Logo" class="logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+  <!-- Header -->
+  <header>
+    <img src="images/logo.png" alt="White Water Rafting Logo" class="logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-    <!-- Main Content -->
-    <main>
-        <h1>Contact Us</h1>
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/contact-hero.jpg" alt="Rafting Contact Background">
+      <h1>Contact Our Team</h1>
+    </section>
 
-        <!-- Company Info -->
-        <section class="company-info">
-            <p><strong>Address:</strong> 123 River Road, Adventure City, AC 12345</p>
-            <p><strong>Phone:</strong> (123) 456-7890</p>
-            <p><strong>Email:</strong> info@whitewateradventures.com</p>
-        </section>
+    <!-- Company Info -->
+    <section class="history">
+      <h2>Our Office</h2>
+      <p><strong>Address:</strong> 123 River Road, Adventure City, AC 12345</p>
+      <p><strong>Phone:</strong> (123) 456-7890</p>
+      <p><strong>Email:</strong> info@whitewateradventures.com</p>
+    </section>
 
-        <!-- Google Map -->
-        <section class="map-container">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019888590456!2d-122.41941508468103!3d37.77492927975914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064b36e9b2b%3A0x4a0d41f4e9c1e9c0!2sGolden%20Gate%20Park!5e0!3m2!1sen!2sus!4v1614988022158!5m2!1sen!2sus"
-                title="White Water Rafting Location" allowfullscreen="" loading="lazy">
-            </iframe>
-        </section>
+    <!-- Map -->
+    <section class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019888590456!2d-122.41941508468103!3d37.77492927975914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064b36e9b2b%3A0x4a0d41f4e9c1e9c0!2sGolden%20Gate%20Park!5e0!3m2!1sen!2sus!4v1614988022158!5m2!1sen!2sus"
+        title="White Water Rafting Location" allowfullscreen="" loading="lazy"></iframe>
+    </section>
 
-        <!-- Contact Form -->
-        <section class="contact-form">
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-                <p>Purpose:</p>
-                <input type="radio" id="question" name="purpose" value="question">
-                <label for="question">Question</label>
-                <input type="radio" id="booking" name="purpose" value="booking">
-                <label for="booking">Booking</label>
-                <input type="radio" id="feedback" name="purpose" value="feedback">
-                <label for="feedback">Feedback</label>
+        <p><strong>Purpose:</strong></p>
+        <div>
+          <input type="radio" id="question" name="purpose" value="question" required>
+          <label for="question">Question</label>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+          <input type="radio" id="booking" name="purpose" value="booking">
+          <label for="booking">Booking</label>
 
-                <input type="checkbox" id="newsletter" name="newsletter">
-                <label for="newsletter">Subscribe to newsletter</label>
+          <input type="radio" id="feedback" name="purpose" value="feedback">
+          <label for="feedback">Feedback</label>
+        </div>
 
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
 
-        <!-- Employee Images -->
-        <section class="employees">
-            <h2>Meet Our Guides</h2>
-            <div class="employee-gallery">
-                <figure>
-                    <img src="images/employee1.jpg" alt="Guide John">
-                    <figcaption>Guide John</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/employee2.jpg" alt="Guide Mary">
-                    <figcaption>Guide Mary</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/employee3.jpg" alt="Guide Alex">
-                    <figcaption>Guide Alex</figcaption>
-                </figure>
-            </div>
-        </section>
-    </main>
+        <div style="margin-top:10px;">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <label for="newsletter">Subscribe to our newsletter</label>
+        </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 White Water Rafting | Yuran de Nelson Pascoal Nhangumbe</p>
-        <nav class="socialmedia">
-            <a href="https://www.facebook.com" target="_blank">
-                <img src="images/facebook-icon.png" alt="Facebook">
-            </a>
-            <a href="https://www.twitter.com" target="_blank">
-                <img src="images/twitter-icon.png" alt="Twitter">
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
-                <img src="images/instagram-icon.png" alt="Instagram">
-            </a>
-        </nav>
-    </footer>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Employees -->
+    <section class="employees">
+      <h2>Meet Our Guides</h2>
+      <div class="employee-gallery">
+        <figure>
+          <img src="images/employee1.jpg" alt="Guide John">
+          <figcaption>Guide John</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.jpg" alt="Guide Mary">
+          <figcaption>Guide Mary</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.jpg" alt="Guide Alex">
+          <figcaption>Guide Alex</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 White Water Rafting | Yuran de Nelson Pascoal Nhangumbe</p>
+    <nav class="socialmedia">
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+      <a href="https://www.twitter.com" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a>
+      <a href="https://www.instagram.com" target="_blank"><img src="images/instagram-icon.png" alt="Instagram"></a>
+    </nav>
+  </footer>
 </body>
-
 </html>
