@@ -2,13 +2,17 @@
 main {
     max-width: 800px;
     margin: 0 auto;
+    text-align: center;
 }
 
-/* Estilizar imagens de perfil apenas dentro do main */
+/* Estilizar imagem de perfil no main */
 main img {
+    width: 150px;
+    height: auto;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    border: 2px solid #333;      /* ✅ exigido */
+    padding: 5px;                /* ✅ exigido */
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4); /* ✅ exigido */
 }
 
 /* Estilizar o aside */
@@ -35,9 +39,9 @@ p {
 
 /* Footer */
 footer {
-    margin-top: 30px;           
-    border-top: 2px solid #333; 
-    padding-top: 10px;           
+    margin-top: 30px;
+    border-top: 2px solid #333;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -50,7 +54,7 @@ nav {
 nav a {
     color: #fff;
     padding: 8px 12px;
-    display: inline-block;
+    display: block;     /* ✅ exigido pelo Page Audit */
     text-decoration: none;
 }
 
