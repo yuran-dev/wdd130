@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f2f5f7; /* Fundo suave */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+/* Container principal */
+main {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    position: relative; /* garante que o texto não fique atrás de nada */
+}
+
+/* Cabeçalho */
+header {
+    margin-bottom: 25px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #2980b9;
+}
+
+/* Imagem */
+picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+    display: block;
+}
+
+/* Seções */
+section {
+    text-align: left;
+    background-color: #fafafa;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.03);
+}
+
+section p, section li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #999;
+    text-align: center;
+}
