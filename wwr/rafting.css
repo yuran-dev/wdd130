@@ -80,16 +80,6 @@ header nav a:hover {
   opacity: 0.9;
 }
 
-.hero article {
-  position: absolute;
-  bottom: 40px;
-  left: 50px;
-  max-width: 700px;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  border-radius: 12px;
-}
-
 /* CONTENT SECTIONS */
 .history,
 .adventure {
@@ -120,96 +110,55 @@ header nav a:hover {
   line-height: 1.8;
 }
 
-/* GRID SECTION */
-.offers {
+/* CONTACT FORM */
+.contact-form {
   margin: 40px 5%;
-  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
 }
 
-.offers-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.offers-grid img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.offers-grid h3 {
-  margin-top: 8px;
-  color: var(--accent1-color);
-}
-
-/* CTA BUTTON */
-.cta-btn {
-  background-color: var(--accent1-color);
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.cta-btn:hover {
-  background-color: var(--accent2-color);
-  color: var(--primary-color);
-}
-
-/* NEWSLETTER */
-.newsletter {
-  margin-top: 20px;
+.contact-form form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 12px;
 }
 
-.newsletter input {
-  padding: 8px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  width: 250px;
+.checkbox-container {
+  margin-top: 10px;
 }
 
-.newsletter button {
-  background-color: var(--accent1-color);
-  color: #fff;
-  padding: 10px 16px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
+/* EMPLOYEE GALLERY */
+.employee-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  align-items: start;
+  margin-top: 20px;
 }
 
-.newsletter button:hover {
-  background-color: var(--accent2-color);
-  color: var(--primary-color);
-}
-
-/* TRIP SUMMARY TABLE */
-.trip-summary table {
-  margin: 20px auto;
-  border-collapse: collapse;
-  width: 90%;
-  max-width: 700px;
-}
-
-.trip-summary th,
-.trip-summary td {
-  border: 1px solid #ccc;
-  padding: 10px;
+.employee-gallery figure {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-align: center;
+  width: 100%;
+  max-width: 220px;
 }
 
-.trip-summary th {
-  background-color: var(--accent1-color);
-  color: #fff;
+.employee-gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.employee-gallery figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
 /* FOOTER */
@@ -241,36 +190,4 @@ footer .socialmedia img {
 
 footer .socialmedia img:hover {
   transform: scale(1.2);
-}
-/* Contact Page Employee Alignment Fix */
-.employee-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 24px;
-  justify-items: center;
-  align-items: start;
-  margin-top: 20px;
-}
-
-.employee-gallery figure {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  text-align: center;
-  width: 100%;
-  max-width: 220px;
-}
-
-.employee-gallery img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.employee-gallery figcaption {
-  margin-top: 10px;
-  font-weight: bold;
-  color: var(--primary-color);
 }
