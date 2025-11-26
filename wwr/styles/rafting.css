@@ -1,17 +1,19 @@
-/* Reset */
+/* Universal Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* CSS Variables */
 :root {
-  --primary-color: #005f73;
+  --primary-color: #003d46; /* Escurecido para contraste */
   --accent1-color: #0a9396;
   --accent2-color: #94d2bd;
   --body-font: Arial, Helvetica, sans-serif;
 }
 
+/* Body */
 body {
   font-family: var(--body-font);
   color: var(--primary-color);
@@ -41,7 +43,7 @@ header nav {
 }
 
 header nav a {
-  color: #fff;
+  color: #ffffff; /* contraste alto */
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
@@ -86,7 +88,7 @@ header nav a:hover {
   bottom: 40px;
   left: 50px;
   max-width: 700px;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border-radius: 12px;
 }
@@ -108,6 +110,7 @@ header nav a:hover {
 
 .history {
   background-color: var(--accent2-color);
+  color: #003d46; /* contraste melhorado */
 }
 
 .adventure {
