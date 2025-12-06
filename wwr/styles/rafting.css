@@ -530,7 +530,7 @@ section blockquote:hover {
 .adventure-gallery img,
 .employee-gallery img {
   transition: transform 0.5s ease, filter 0.5s ease;
-}
+}s
 
 .adventure-gallery img:hover,
 .employee-gallery img:hover {
