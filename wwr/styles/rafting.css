@@ -65,6 +65,7 @@ header nav a:hover {
 }
 
 /* HERO SECTION */
+
 .hero {
   position: relative;
   width: 100%;
@@ -89,6 +90,19 @@ header nav a:hover {
   font-size: 2.5rem;
   opacity: 0.9;
 }
+
+.hero article {
+  position: absolute;
+  bottom: 20px; /* posiciona na parte inferior da hero */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* ajusta a largura do texto */
+  color: #fff;
+  background-color: rgba(0, 95, 115, 0.7); /* fundo semi-transparente para legibilidade */
+  padding: 16px;
+  border-radius: 8px;
+}
+
 
 /* CONTENT SECTIONS */
 .history,
