@@ -103,6 +103,14 @@ header nav a:hover {
   border-radius: 8px;
 }
 
+.hero article img {
+  float: right;
+  margin-left: 16px; /* espaço entre imagem e texto */
+  max-width: 150px;  /* ajuste conforme necessário */
+  height: auto;
+  border-radius: 8px; /* opcional, combina com o artigo */
+}
+
 
 /* CONTENT SECTIONS */
 .history,
